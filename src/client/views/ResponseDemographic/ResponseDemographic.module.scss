@@ -1,0 +1,21 @@
+@import '../../styles/main';
+
+.view {
+    @include pane;
+}
+
+.form {
+    @include phone {
+        width: 90%;
+    }
+
+    @include tablet {
+        width: 80%;
+    }
+
+    width: 60%;
+}
+
+.inputContainer {
+    margin: 8px;
+}

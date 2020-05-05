@@ -1,0 +1,35 @@
+@import '../../styles/main.scss';
+
+.container {
+    margin: 1rem;
+    width: 100%;
+}
+
+.content {
+    border: 1px solid $lightGrey;
+    border-radius: $borderRadius;
+    padding: 1rem;
+}
+
+.tab {
+    border-radius: $borderRadius;
+    border: none;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    background: $white;
+    color: $darkGrey;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    &Active {
+        background: $blue;
+        color: $white;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}

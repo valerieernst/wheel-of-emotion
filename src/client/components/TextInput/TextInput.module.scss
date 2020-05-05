@@ -1,0 +1,30 @@
+@import '../../styles/main';
+
+.container {
+    display: flex;
+
+    @include phone {
+        flex-flow: column nowrap;
+    }
+
+    &.fullWidth {
+        flex: 0 0 100%;
+    }
+}
+
+.input {
+    border: 2px solid $darkGrey;
+    border-radius: $borderRadius;
+    height: $inputHeight;
+    flex: 1 0 auto;
+
+    &:focus {
+        border: 2px solid $blue;
+        outline: none;
+    }
+}
+
+.label {
+    align-self: center;
+    padding-right: 8px;
+}

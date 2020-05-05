@@ -1,0 +1,23 @@
+html {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}
+
+#root {
+	height: 100%;
+	background-color: $orange;
+}
+
+.app {
+	padding: 3rem;
+	height: 100%;
+}
